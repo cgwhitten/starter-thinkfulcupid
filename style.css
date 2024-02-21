@@ -99,18 +99,19 @@ header nav ul li a:hover {
 /* -------  Join Form ------- */
 form {
   border: 2px solid #6b1a22;
-  padding: 10px;  
+  padding: 10px; 
 }
 
 form label {
   font-weight: bold;
+  flex-direction: column;
+  
 }
 
 form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
-  align-items: flex-end;
 }
 
 form button {
@@ -121,6 +122,13 @@ form button {
   padding: 15px;
   width: 100%;
 }
+
+.form-group {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
 
 /* -------  Footer ------- */
 
