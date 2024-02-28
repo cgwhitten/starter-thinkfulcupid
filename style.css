@@ -112,6 +112,7 @@ form select,
 form input {
   margin-bottom: 20px;
   width: 180px;
+  align-items: flex-end;
 }
 
 form button {
@@ -169,4 +170,17 @@ footer p {
     justify-content: center;
   }
 
+}
+
+@media all and (max-width: 378px) {
+  form {
+    padding: 0px;
+  }
+
+  form select,
+  form input {
+  margin-bottom: 20px;
+  width: 100px;
+  align-items: flex-end;
+}
 }
